@@ -1,0 +1,139 @@
+@charset "utf-8";
+body {font-family:Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif; background:#E6E6E6;}
+a {color:#000;}
+.icon_bar {background:#fff;}
+.header_logo {
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	line-height:60px;
+} /*20170715修改height:50px;*/
+.search_icon p {font-size:8px; color:#fff;}
+.top_home_icon p {font-size:8px; color:#fff;}
+.search_bar {border:1px solid #666; background:#fff;}
+.search_bar input {background:#fff; font-size:16px; border:0;}
+.search_btn {font-size:15px; background:#666; color:#fff;}
+.hot_search {font-size:14px; color:#fff;}
+.hot_search a {color:#fff;}
+.hot_title {font-size:14px;}
+/*.hamburger_list_wrap {background:#f4f4f4;}*/
+/*.hamburger_login_bar {background:#51ab55;}*/
+.hamburger_login_bar li a {color: #fff; font-size: 16px;}
+.hamburger_type_item h3 {
+	border-bottom:1px solid #B3B3B3;
+	line-height:55px;
+	font-size:20px;
+	background:#f4f4f4;
+}
+.hamburger_type_item p a {
+	border-bottom:0.5px solid #ccc;
+	color:#fff;
+	font-size:17px;
+}
+.ui-widget-content {border:none;}
+.copyright {color:#666; font-size:12px; line-height:16px;}
+.breadcrumb {background:#f4f4f4;}
+.breadcrumb h1 {font-size:15px; color:#333; line-height:20px; padding:5px;}
+
+/* 下bar */
+.footer_menu_bar_wrap {background:#B3B2B2; border-top:1px solid #ccc;}
+.menu_icon h6 {font-size:12px; color:#fff;}
+
+.unactive{background-color:#C8C8C8;}
+.keep {}
+.keep p {font-size:14px; color:#666; text-align:center; line-height:18px;}
+
+/*商品內頁下bar*/
+.menu_icon15 h6 {font-size:12px; color:#fff;}
+.menu_icon3 a {color: #fff;}
+.menu_icon3 h5 {font-size: 20px; letter-spacing:1px;}
+
+/*購買框*/
+.buy_dialog_wrap {background: #E6E6E6;}
+.buy_dialog_top {background:#f4f4f4;}
+.buy_dialog_top h2 {font-size:18px;color:#B3B3B3;}
+.buy_dialog_title h4 {font-size:16px; line-height:20px;}
+.buy_dialog_price h5 {font-size:14px; line-height: 18px;}
+.buy_dialog_price h2 {
+	font-size:22px;	
+	line-height: 22px;
+	font-weight:bold;
+}
+label {font-size:16px;}
+.prod_choose {font-size: 14px;}
+.continue_buy_btn a{font-size:16px;	background:#fff; border:1px solid;}
+.go_buy_btn a{font-size:16px;}
+.go_buy_btn_font_color {color:#fff;}
+.shopping_top_title {background:#f4f4f4;}
+.shopping_top_title h1 {font-size:18px; font-weight:bold;}
+
+/*手風琴邊框*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {border:none;}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {border-bottom-right-radius:0;}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {border-bottom-left-radius:0;}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {border-top-right-radius:0;}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {border-top-left-radius:0;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active,ui-button:active, .ui-button.ui-state-active:hover {border:none;}
+
+/* 整體色系 */
+.basic_color {background:#97CED8;}
+.basic_font_color {color:#c30d23; border:#c30d23;}
+.active{background-color:#97CED8;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active,ui-button:active, .ui-button.ui-state-active:hover {	
+	background:#c30d23;
+} /*商品內頁 prod_content.html手風琴背景色*/
+
+.price_color {color:#c30d23;}
+
+
+/*20170425新增*/
+.sold_color {color:#C00;}
+.prod_original_price {font-size:10px; color:#666;}
+
+/*20170428 修改購買對話框*/
+.buy_dialog_top {color:#fff;}
+
+/*20170619 新增會員系統*/
+.float_R {float:right;}
+.btn_box a {font-size:16px; color:#fff;}
+.sbtn_box a {font-size:15px; color:#fff;}
+.gray_btn  {background:#333;}
+.fb_btn_bg {background:url(../images/fb_btn.png) no-repeat center top;}
+.member_title {background:#666; color:#fff; font-size:18px;}
+.mark_color {color:#f00;}
+.item_wrap {background:#f4f4f4; font-size:16px;}
+.underline {border-bottom:1px solid #666;}
+
+/*20170721紅利館TopTitle*/
+/*.Overall_color{ background: #EB6448; }*/
+
+.top_title_logo{
+	/*color: #fff;*/
+	font-size: 18px;
+	font-weight:bold;
+	line-height:50px;
+}
+
+.member_wrap span{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.dividend_wrap span{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+/*20170725 紅利館共用style*/
+.margin10{ margin: 10px; }
+.BG_white{ background: white; }
+.f_colorBlack{
+	color: black;
+	font-weight: bold;
+}
+.f_size16{ font-size: 16px; }
+.line_h20{ line-height: 20px; }

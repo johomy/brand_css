@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family:"微軟正黑體","蘋果儷中黑",Arial;
+	word-break: normal;
+	text-align:justify; 
+	}
+	
+img{ width: 100%; height: auto; }
+
+/*-----特別企劃區-----*/
+.activity_wrap >ul >li{
+	margin-bottom: 10px;
+}
+
+/*-----紅利商品兌換區-----*/
+
+.top_title{	text-align: center; height: 40px; }
+
+.Product_content_wrap{
+	width: 58%;
+	float: left;
+}
+
+.prod_title_wrap{
+	height: 60px;
+	overflow: hidden;
+}
+
+.prod_price_wrap{
+	height: 30px;
+	overflow: hidden;
+}
+
+.list_photo{
+	width: 38%;
+	max-width: 220px;
+	margin: 5px 10px 5px 0;
+}
+
+.button_style{
+	width: 57px;
+	height: 30px;
+	background: #EE8072;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #fff;
+	padding: 0;
+	border: 0;
+}
+
+
+
