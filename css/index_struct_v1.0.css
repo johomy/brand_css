@@ -3,20 +3,18 @@
 body {
 	font-family:"微軟正黑體","蘋果儷中黑",Arial;
 	word-break: normal;
-	text-align:justify; 
+	text-align:justify;
 	}
-	
+
 img{ width: 100%; height: auto; }
 
-/*-----特別企劃區-----*/
+/*-----特別企劃區START-----*/
 .activity_wrap >ul >li{
 	margin-bottom: 10px;
 }
+/*-----特別企劃區END-----*/
 
-/*-----紅利商品兌換區-----*/
-
-.top_title{	text-align: center; height: 40px; }
-
+/*-----紅利商品兌換區START-----*/
 .Product_content_wrap{
 	width: 58%;
 	float: left;
@@ -28,7 +26,7 @@ img{ width: 100%; height: auto; }
 }
 
 .prod_price_wrap{
-	height: 30px;
+	height: 35px;
 	overflow: hidden;
 }
 
@@ -36,6 +34,24 @@ img{ width: 100%; height: auto; }
 	width: 38%;
 	max-width: 220px;
 	margin: 5px 10px 5px 0;
+}
+
+.Quantity_wrap{
+	height: 80px;
+}
+
+.Quantity_wrap input{
+	width: 45px;
+	height: 30px;
+}
+
+.Quantity_wrap button{
+	width: 45px;
+	height: 30px;
+	padding: 0;
+	line-height: 0px;
+	margin-bottom: 0.5px;
+	font-size: 20px;
 }
 
 .button_style{
@@ -49,5 +65,9 @@ img{ width: 100%; height: auto; }
 	border: 0;
 }
 
-
-
+.button_wrap{
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+}
+/*-----紅利商品兌換區END-----*/

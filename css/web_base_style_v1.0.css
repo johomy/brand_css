@@ -128,11 +128,24 @@ label {font-size:16px;}
 	line-height: 50px;
 }
 
-/*20170725 紅利館共用style*/
-.margin10{ margin: 10px; }
+/*20170727 紅利館共用style*/
+.top_title{	color: #fff; font-size: 16px; line-height: 40px; font-weight: bold; }
+
+.row{ background: #fff; }
 .BG_white{ background: white; }
+.BG_gray{ background: #878787; }
+.Border_b{ border-bottom: 1px solid #898989; }
+/*.Border{ border: 1px solid #ccc; }*/
 .f_colorBlack{
 	color: black;
+	font-weight: bold;
+}
+.f_colorWhit{
+	color: white;
+	font-weight: bold;
+}
+.remind_color{
+	color: red;
 	font-weight: bold;
 }
 .f_size16{ font-size: 16px; }

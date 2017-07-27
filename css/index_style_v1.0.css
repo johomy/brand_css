@@ -10,18 +10,16 @@ body {
 .Overall_color{ background: #EE8072; }
 .top_title_logo{ color: #fff; }
 
-/*-----共用-----*/
-.row{ background: #fff; }
-
-/*.Border{ border: 1px solid #ccc; }*/
-
-.Border_b{ border-bottom: 1px solid #898989; }
-
 /*-----紅利商品兌換區-----*/
-.top_title{	color: #fff; font-size: 16px; line-height: 40px; font-weight: bold; } /*20170715移除padding:10px 0 8px 0; 新增line-height:40px;*/
-
 .price_style{
 	color: #f78c00;
 	font-size: 20px;
     font-weight: bold;
 }
+
+.Quantity_wrap input{
+	border-radius: 5px;
+	border: 0.5px solid #ccc;
+}
+
+
