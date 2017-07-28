@@ -25,10 +25,10 @@ img{ width: 100%; height: auto; }
 	overflow: hidden;
 }
 
-.prod_price_wrap{
+/*.prod_price_wrap{
 	height: 35px;
 	overflow: hidden;
-}
+}*/
 
 .list_photo{
 	width: 38%;
@@ -37,12 +37,14 @@ img{ width: 100%; height: auto; }
 }
 
 .Quantity_wrap{
-	height: 80px;
+	height: 150px;
+	overflow: hidden;
 }
 
 .Quantity_wrap input{
 	width: 45px;
 	height: 30px;
+	margin: 5px 0;
 }
 
 .Quantity_wrap button{
