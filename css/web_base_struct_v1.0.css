@@ -352,7 +352,7 @@ input, select, textarea, button {outline:none;}
 
 /* 20170630 會員中心title */
 .keep_top2 {height:45px;}
-.keep_top3 {height:30px;}
+.keep_top3 {height:50px;} /*20170801紅利館用原height:30px;*/
 .title_icon {margin:0 3px;}
 .title_icon img {width:25px; height:25px; vertical-align:-5px;}
 .logout_btn {width:45px; line-height:36px; float:right; background:#333; font-size:14px; margin:5px 0 0;}
@@ -363,8 +363,6 @@ input, select, textarea, button {outline:none;}
 /*20170727 紅利館*/
 .overflow_h{overflow: hidden;}
 .margin10{ margin: 10px; }
-
-.keep_top_50px{ height: 50px; }
 
 .top_title_wrap{
 	width: 100%;
