@@ -77,14 +77,14 @@
         </div>        
         <!-- 紅利館Top title -->
         <div class="top_title_wrap inner_box Top_title_bg"><!-- 與會員專區做切換 -->
-          <a href="#"><!-- 連結至紅利館首頁 -->
-            <div class="dividend_wrap">
-              <span><img src="images/shipment.png" class="dividend_img"></span><!-- 紅利點img -->
+          <div class="dividend_wrap">
+            <span><img src="images/shipment.png" class="dividend_img"></span>
+            <div class="dividend">
               <span>8888</span><!-- 目前紅利點數 四位數上限 -->
               <span>點</span>
             </div>
-            <div class=" top_title_logo">紅利館</div>
-          </a>
+          </div>
+          <div class=" top_title_logo"><a href="#">紅利館</a></div><!-- 連結至紅利館首頁 -->
         </div>
           <{/if}>
         <{/if}>

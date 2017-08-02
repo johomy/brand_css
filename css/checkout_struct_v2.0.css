@@ -1,0 +1,44 @@
+@charset "utf-8";
+.news_bn {width:95%; max-height:56px; margin:0 auto; padding:5px 0; line-height:20px; overflow:hidden;} 
+.news_bn img {width:100%; max-width:400px; max-height:66px;}
+.checkout_block_wrap {width:100%;}
+.checkout_error {width:95%; height:20px; margin:2px auto; overflow:hidden;}
+.checkout_title {line-height:32px;}
+.checkout_prod_box {border-bottom:1px solid #B3B3B3; padding:5px 0;}
+.checkout_prod_name {height:22px; line-height:22px; overflow:hidden;}
+.checkout_prod_photo {float:left; margin-right:10px;}
+.checkout_prod_photo img {width:100%; height:auto; max-width:80px;}
+.checkout_prod_data {float:left; margin-top:12px;}
+.prod_item_box {line-height:30px;}
+.qty_choose {padding:3px 0;}
+.checkout_prod_size {width:100%; line-height:16px; padding:3px 0; margin-top:3px;}
+.checkout_prod_delete {float:right; padding:10px 0;}
+.checkout_prod_delete a {padding:20px 15px;}
+.prod_gift {width:90%; line-height:18px; padding:5px 0;}
+.checkout_total_wrap {padding-top:5px;}
+.checkout_total_wrap tr {line-height:22px;}
+.total_line {border-bottom:1px solid #B3B3B3;}
+.ta_right {text-align:right;}
+.gift_code {line-height:56px}
+.gift_code input {padding:2px; width:60%; height:22px;}
+.gift_code button {padding:6px 14px; border:0;}
+.radio_item {padding:5px 0; line-height:24px;}
+.checkout_item {padding:2px 0; line-height:24px;}
+input[type="radio"] {width:25px; height:25px; float:left; margin-right:5px;}
+.keyin_box {padding:8px 5px; height:22px; width:96%;}
+.addressee_click_item {padding:10px 0;}
+input[type="checkbox"] {width:25px; height:25px; float:left;}
+.dropdown_box {padding:8px 5px; margin-bottom:10px;}
+.pickup_btn {width:180px; height:45px; margin:0 auto;}
+.pickup_btn a {
+        background: url(../images/family.png) no-repeat;
+        background-size:180px 45px;
+        padding-left:60px;
+        line-height:45px;
+}
+.pickup_info {padding:5px; margin-top:10px; line-height:20px;}
+
+/* 20170621 提示加入會員 */
+.join_member {float:right;}
+.member_remind {line-height:16px; overflow:hidden; padding:5px; word-break: normal; border:1px solid #ccc;}
+.checkid_box {border:1px solid #333; padding:6px;}

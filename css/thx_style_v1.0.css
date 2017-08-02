@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family:"微軟正黑體","蘋果儷中黑",Arial;
+	word-break: normal;
+	text-align:justify;
+	background: #e6e6e6;
+	}
+/*---紅利館Top title 整體顏色---*/
+.Overall_color{ background: #EE8072; }
+.top_title_logo{ color: #fff; }
+
+/*-----紅利商品兌換區-----*/
+.price_style{
+	color: #f78c00;
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.Quantity_wrap input{
+	border-radius: 5px;
+	border: 0.5px solid #ccc;
+}
+
+/*Thx顏色*/
+.Thx_color{
+	background: #878787;
+}

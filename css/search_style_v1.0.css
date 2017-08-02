@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family:"微軟正黑體","蘋果儷中黑",Arial;
+	word-break: normal;
+	text-align:justify;
+	background: #e6e6e6;
+	}
+/*---紅利館Top title 整體顏色---*/
+.Overall_color{ background: #EE8072; }
+.top_title_logo{ color: #fff; }
+
+/*-----紅利商品兌換區-----*/
+.top_title{	color: #fff; font-size: 16px; line-height: 40px; font-weight: bold; } /*20170715移除padding:10px 0 8px 0; 新增line-height:40px;*/
+
+.price_style{
+	color: #f78c00;
+	font-size: 20px;
+    font-weight: bold;
+}
+.button_style{
+	background: #EE8072;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #fff;
+	padding: 0;
+	border: 0;
+}
+/*-----搜尋頁面設定START-----*/
+.search_button{
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.filter_button{
+	background: rgba(0,0,0,0);
+	border: 0;
+}
+/*-----搜尋頁面設定END-----*/

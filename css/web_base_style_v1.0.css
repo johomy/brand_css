@@ -104,23 +104,23 @@ label {font-size:16px;}
 .item_wrap {background:#f4f4f4; font-size:16px;}
 .underline {border-bottom:1px solid #666;}
 
-/*20170721紅利館TopTitle*/
+/*20170721紅利館*/
 /*.Overall_color{ background: #EB6448; }*/
-
+.Top_title_bg{ background: #d43f3a; }
+.top_title{	color: #fff; font-size: 16px; line-height: 40px; font-weight: bold; }
+.top_title_logo a { color: #fff; }
+.top_title_logo a:hover{ color: #fff; }
 .top_title_logo{
-	/*color: #fff;*/
 	font-size: 18px;
 	font-weight:bold;
 	line-height:50px;
 }
-
 .member_wrap span{
 	color: #fff;
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 50px;
 }
-
 .dividend_wrap span{
 	color: #fff;
 	font-size: 14px;
@@ -129,26 +129,14 @@ label {font-size:16px;}
 }
 
 /*20170727 紅利館共用style*/
-.Top_title_bg{ background: #d43f3a; }
-.top_title{	color: #fff; font-size: 16px; line-height: 40px; font-weight: bold; }
-
-.row{ background: #fff; }
-.BG_white{ background: white; }
-.BG_gray{ background: #878787; }
-.Border_b{ border-bottom: 1px solid #898989; }
+.row{background: #fff;}
+.BG_white{background: white;}
+.BG_gray{background: #878787;}
+.Border_b{border-bottom: 1px solid #898989;}
 /*.Border{ border: 1px solid #ccc; }*/
-.f_colorBlack{
-	color: black;
-	font-weight: bold;
-}
-.f_colorWhit{
-	color: white;
-	font-weight: bold;
-}
-.remind_color{
-	color: red;
-	font-weight: bold;
-}
+.f_colorBlack{color: black; font-weight: bold;}
+.f_colorWhit{color: white; font-weight: bold;}
+.remind_color{color: red; font-weight: bold;}
 .f_size16{ font-size: 16px; }
 .line_h20{ line-height: 20px; }
 .line_h30{ line-height: 30px; }

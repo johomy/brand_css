@@ -1,0 +1,18 @@
+@charset "utf-8";
+.checkout_error {font-size: 14px; color: red; line-height: 20px;}
+.checkout_title {font-size:16px; color:#fff; background:#B3B3B3;}
+.news_bn {font-size:16px; color:#dc2929;}
+.news_bg {background:#f4f4f4;}
+.checkout_block_wrap {font-size:15px;}
+.checkout_prod_delete img {width:20px; height:20px;}
+.checkout_prod_size {background:#f4f4f4; font-size:14px;}
+.prod_gift {font-size:14px; color:#333;}
+.gift_code button {font-size:13px; color:#fff; background:#666;}
+.pickup_btn a {font-size:16px; color:#fff;}
+.pickup_info {font-size:14px;}
+.gift_bg  {background:#ffe7e4;}
+
+/* 20170621 提示加入會員 */
+.join_member {font-size:13px;}
+.member_remind {background:#f4f4f4; color:#c30d23; font-size:13px;}
+.checkid_box {background:#f4f4f4;}
