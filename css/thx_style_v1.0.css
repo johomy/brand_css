@@ -20,14 +20,10 @@ body {
 .Quantity_wrap input{
 	border-radius: 5px;
 	border: 0.5px solid #ccc;
+	text-align: center;
 }
 
-.button_style{
-	background: #f09290;
-	border-radius: 5px;
-	font-size: 12px;
-	color: #fff;
-	padding: 0;
-	border: 0;
-	line-height: 30px;
+/*Thx顏色*/
+.Thx_color{
+	background: #878787;
 }
