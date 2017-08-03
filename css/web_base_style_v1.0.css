@@ -105,29 +105,6 @@ label {font-size:16px;}
 .underline {border-bottom:1px solid #666;}
 
 /*20170721紅利館*/
-/*.Overall_color{ background: #EB6448; }*/
-.Top_title_bg{ background: #EE8072; }
-.top_title{	color: #fff; font-size: 16px; line-height: 40px; font-weight: bold; }
-.top_title_logo a { color: #fff; }
-.top_title_logo a:hover{ color: #fff; }
-.top_title_logo{
-	font-size: 18px;
-	font-weight:bold;
-	line-height:50px;
-}
-.member_wrap span{
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 50px;
-}
-.dividend_wrap span{
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 50px;
-}
-
 /*20170727 紅利館共用style*/
 .row{background: #fff;}
 .BG_white{background: white;}
@@ -140,3 +117,22 @@ label {font-size:16px;}
 .f_size16{ font-size: 16px; }
 .line_h20{ line-height: 20px; }
 .line_h30{ line-height: 30px; }
+
+/*紅利館Top title設定*/
+/*.Overall_color{ background: #EB6448; }*/
+.Top_title_bg{ background: #EE8072; }
+.top_title{	color: #fff; font-size: 16px; line-height: 40px; font-weight: bold; }
+.top_title_logo a { color: #fff; }
+.top_title_logo a:hover{ color: #fff; }
+.top_title_logo{
+	font-size: 18px;
+	font-weight:bold;
+	line-height:50px;
+}
+/*目前持有紅利設定*/
+.dividend_wrap span{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 50px;
+}
