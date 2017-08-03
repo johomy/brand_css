@@ -39,6 +39,7 @@ img{ width: 100%; height: auto; }
 	width: 45px;
 	height: 30px;
 	margin: 5px 0;
+	text-align: center;
 }
 
 /*.Quantity_wrap button{

@@ -20,6 +20,7 @@ body {
 .Quantity_wrap input{
 	border-radius: 5px;
 	border: 0.5px solid #ccc;
+	text-align: center;
 }
 
 /*Thx顏色*/
