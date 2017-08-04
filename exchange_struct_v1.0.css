@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family:"微軟正黑體","蘋果儷中黑",Arial;
+	word-break: normal;
+	text-align:justify; 
+	}
+	
+img{ width: 100%; height: 200px; }/* 20170804 force img from auto to 200px */
+
+/*-----商品區START-----*/
+.Product_content_wrap{
+	width: 58%;
+	float: left;
+}
+
+.prod_title_wrap{
+	height: 60px;
+	overflow: hidden;
+}
+
+/*.prod_price_wrap{
+	height: 35px;
+	overflow: hidden;
+}*/
+
+.list_photo{
+	width: 38%;
+	max-width: 220px;
+	margin: 5px 10px 5px 0;
+}
+
+.Quantity_wrap{ /*20170728原height:150px;*/ /*20170804 form 90 to 120 by henrywang*/
+	height: 120px;
+	overflow: hidden;
+}
+
+.Quantity_wrap input{
+	width: 45px;
+	height: 30px;
+	margin: 5px 0;
+}
+
+.Quantity_wrap button{
+	width: 45px;
+	height: 30px;
+	padding: 0;
+	line-height: 0px;
+	margin-bottom: 0.5px;
+	font-size: 20px;
+}
+
+/*.button_style{
+	width: 57px;
+	height: 30px;
+}*/
+
+/*.button_wrap{
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+}*/
+/*-----商品區END-----*/
+
+/*-----兌換清單用 START-----*/
+.Big_button_style{
+	width: 95%;
+	height: 40px;
+	background: #EE8072;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #fff;
+	padding: 0;
+	border: 0;
+}
+
+.ProdDelete_wrap{
+	position: absolute; top: 50%; right: 5px;
+}
+
+.prod_delete{
+	width: 25px;
+	height: 25px;
+}
+
+/*-----兌換清單用 END-----*/
+
+/*-----兌換使用點數-----*/
+
+/*付款方式*/
+.radio{
+	width: 25px;
+	height: 25px;
+	/*margin: 0;*/
+}
+
+.checkbox{
+	width: 25px;
+	height: 25px;
+	margin: 0;
+}
+
+.input_text{
+	width: 100%;
+	height: 30px;
+	margin: 0;
+}
