@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family:"微軟正黑體","蘋果儷中黑",Arial;
+	word-break: normal;
+	text-align:justify;
+	background: #fff;
+	}
+/*---紅利館Top title 整體顏色---*/
+.Overall_color{ background: #f09290; }
+.top_title_logo{ color: #fff; }
+
+/*-----搜尋頁面設定START-----*/
+.f_colorRorange{
+	color: #EE8072;
+	font-weight: bold;
+}
+
+.search_button{
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.label-info{
+	background-color: #f09290;
+	font-size: 14px;
+}
+
+.link_categories_wrap ul li a{
+	color: #fff;
+	font-weight: bold;
+	background-color: #f09290;
+	border-radius: 5px;
+	padding:0 5px;
+}
+
+/*-----搜尋頁面設定END-----*/
