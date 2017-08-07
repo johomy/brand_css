@@ -388,3 +388,8 @@ input, select, textarea, button {outline:none;}
 	top: 15px;
 	left: 0px;
 }
+/*20170807增新紅利館圖片大小*/
+.list_photo_img{
+	max-width: 200px;
+	max-height: 200px;
+}
