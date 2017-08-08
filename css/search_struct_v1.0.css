@@ -35,7 +35,8 @@ img{ width: 100%; height: auto; }
 
 .bootstrap-tagsinput{
 	width: 80%;
-	white-space: nowrap;
+	/*height: 60px;*/
+	/*white-space: nowrap;*/
 	overflow: hidden;
 }
 

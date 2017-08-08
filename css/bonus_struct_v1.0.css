@@ -32,7 +32,7 @@ img{ width: 100%; height: auto; }
 
 .list_photo{
 	width: 38%;
-	max-width: 220px;
+	max-width: 200px;
 	margin: 5px 10px 5px 0;
 }
 
@@ -67,3 +67,19 @@ img{ width: 100%; height: auto; }
 	right: 5px;
 }
 /*-----紅利商品兌換區END-----*/
+
+/*-----搜尋結果頁用-----*/
+.positionR{
+	position: relative;
+}
+.filter_wrap{
+	width: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.filter_img{
+	width: 20px;
+	height: 28.56px;
+	margin: 5px 5px 5px 20px;
+}
