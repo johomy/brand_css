@@ -6,7 +6,7 @@ body {
 	text-align:justify; 
 	}
 	
-img{ width: 100%; height: 200px; }/* 20170804 force img from auto to 200px */
+img{ width: 100%; height: auto; }/* 20170804 force img from auto to 200px *//*20170808 改回auto*/
 
 /*-----商品區START-----*/
 .Product_content_wrap{

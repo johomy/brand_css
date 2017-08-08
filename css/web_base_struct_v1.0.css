@@ -393,3 +393,8 @@ input, select, textarea, button {outline:none;}
 	max-width: 200px;
 	max-height: 200px;
 }
+
+/*20170808新增步驟圖*/
+.step_img{
+	max-width: 300px;
+}
