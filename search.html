@@ -21,10 +21,14 @@
 <script type="text/javascript" src="js/bootstrap3/js/bootstrap.js"></script>
 <link rel="stylesheet" type="text/css" href="js/bootstrap3/css/bootstrap-tagsinput.css">
 <script type="text/javascript" src="js/bootstrap3/js/bootstrap-tagsinput.js"></script>
+<script type="text/javascript" src="js/jQueryValidation-1.17.0/jquery.js"></script>
+<script type="text/javascript" src="js/jQueryValidation-1.17.0/jquery.validate.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/reset.css"><!-- 基本清除 -->
 <link rel="stylesheet" type="text/css" href="css/fast.css"><!-- 便利包 -->
 <link rel="stylesheet" type="text/css" href="css/search_struct_v1.0.css">
 <link rel="stylesheet" type="text/css" href="css/search_style_v1.0.css">
+<script type="text/javascript" src="js/search.min.js"></script>
+
 </head>
 <body>
   <div class="main_wrap">
@@ -104,35 +108,39 @@
 
       <!--紅利館商品搜尋-->
       <article class="row">
-        <div class="bonus_search_img_wrap ta_center m-t-50 m-b-20 p-l-5 p-r-5">
-          <img src="images/NEWART.png" class="bonus_search_img" /><!-- 可擺置圖片768*300 -->
+        <div class="bonus_search_img_wrap ta_center m-t-20 m-b-40 p-l-5 p-r-5">
+          <img src="images/NEWART.png" class="bonus_search_img" /><!-- 可擺置圖片768*375 -->
         </div>
 
         <div class="bonus_search_wrap inner_box mg_center p-l-5 p-r-5">
-          <div class="ta_center m-b-20">
+          <div class="ta_center m-b-40">
             <input type="text" value="" data-role="tagsinput" placeholder="請輸入關鍵字" class="search_keywords" />
-            <button class="btn btn-danger search_button Overall_color">搜尋</button>
+            <button onclick="search()" class="btn btn-danger search_button Overall_color">搜尋</button>
           </div>
           <!-- 熱門搜尋start -->
-          <div class="link_categories_wrap margin10">
-            <span class="col-xs-4 col-sm-2 m-t-10 ta_center f_colorRorange f_size16 p-r-0">熱門推薦：</span>
-            <ul class="col-xs-8 col-sm-10 ta_left p-l-0"><!-- max word 11(繁體中文) -->
-              <li><a href="#" class="btn-danger">壹貳參肆伍陸柒捌玖拾壹</a></li>
+          <div class="link_categories_wrap">
+            <div class="block_model m-b-10"><!--大標-->
+              <div class="inner_box f_colorRorange b_colorOrangeR top_title">熱門推薦</div><!-- 320x568顯示中文17位數 -->
+            </div><!--大標 end-->
+            <ul class="ta_left m-b-20"><!-- max word 11(繁體中文) -->
+              <li><a href="#" class="btn-danger">壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾</a></li>
               <li><a href="#" class="btn-danger">去油去屑</a></li>
-              <li><a href="#" class="btn-danger">限定</a></li>
-              <li><a href="#" class="btn-danger">折扣</a></li>
               <li><a href="#" class="btn-danger">點數下殺</a></li>
               <li><a href="#" class="btn-danger">夏日清涼</a></li>
               <li><a href="#" class="btn-danger">去油去屑</a></li>
               <li><a href="#" class="btn-danger">期間限定</a></li>
               <li><a href="#" class="btn-danger">下殺</a></li>
+              <li><a href="#" class="btn-danger">限定</a></li>
+              <li><a href="#" class="btn-danger">折扣</a></li>
             </ul>
             <div class="clear"></div>
           </div>
           <!-- 點數搜尋start -->
-          <div class="link_categories_wrap margin10">
-            <span class="col-xs-4 col-sm-2 m-t-10 ta_center f_colorRorange f_size16 p-r-0">點數搜尋：</span>
-            <ul class="col-xs-8 col-sm-10 ta_left p-l-0"><!-- max word 11(繁體中文) -->
+          <div class="link_categories_wrap">
+            <div class="block_model m-b-10"><!--大標-->
+              <div class="inner_box f_colorRorange b_colorOrangeR top_title">點數搜尋</div><!-- 320x568顯示中文17位數 -->
+            </div><!--大標 end-->
+            <ul class="ta_left"><!-- max word 11(繁體中文) -->
               <li><a href="#" class="btn-danger">1點-2點</a></li>
               <li><a href="#" class="btn-danger">3點-4點</a></li>
               <li><a href="#" class="btn-danger">5點-6點</a></li>

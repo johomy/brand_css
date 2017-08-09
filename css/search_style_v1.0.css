@@ -16,6 +16,11 @@ body {
 	font-weight: bold;
 }
 
+.b_colorOrangeR{
+	border: 1px solid #f09290;
+	border-radius: 10px;
+}
+
 .search_button{
 	border: 1px solid #fff;
 	color: #fff;
@@ -31,7 +36,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 	background-color: #f09290;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding:0 10px;
 }
 
