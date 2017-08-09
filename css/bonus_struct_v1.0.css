@@ -30,9 +30,9 @@ img{ width: 100%; height: auto; }
 	overflow: hidden;
 }*/
 
-.list_photo{
+.list_photo{ /*20170809 原max-width: 200px;*/
 	width: 38%;
-	max-width: 200px;
+	max-width: 220px;
 	margin: 5px 10px 5px 0;
 }
 

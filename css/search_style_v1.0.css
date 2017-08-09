@@ -29,9 +29,10 @@ body {
 .link_categories_wrap ul li a{
 	color: #fff;
 	font-weight: bold;
+	text-align: center;
 	background-color: #f09290;
 	border-radius: 5px;
-	padding:0 5px;
+	padding:0 10px;
 }
 
 /*-----搜尋頁面設定END-----*/

@@ -388,13 +388,20 @@ input, select, textarea, button {outline:none;}
 	top: 15px;
 	left: 0px;
 }
-/*20170807增新紅利館圖片大小*/
+/*20170807增新紅利館圖片大小*/ /*20170809圖片尺寸確認220x220*/
 .list_photo_img{
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 220px;
+	max-height: 220px;
 }
 
 /*20170808新增步驟圖*/
 .step_img{
 	max-width: 300px;
+}
+/*20170809新增首頁活動圖尺寸*/
+.activity_wrap{
+	text-align: center;
+}
+.activity_img{
+	max-width: 768px;
 }
