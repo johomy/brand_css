@@ -16,8 +16,8 @@
     },
     freeInput: true,
     addOnBlur: true,
-    maxTags: undefined,
-    maxChars: undefined,
+    maxTags: [5], //20170810原undefined(限制tags數量)
+    maxChars: 17, //20170810原undefined(限制tags字數)
     confirmKeys: [13, 44],
     delimiter: ',',
     delimiterRegex: null,
