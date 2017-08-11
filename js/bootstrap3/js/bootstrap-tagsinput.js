@@ -62,8 +62,10 @@
     add: function(item, dontPushVal, options) {
       var self = this;
 
-      if (self.options.maxTags && self.itemsArray.length >= self.options.maxTags)
+      if (self.options.maxTags && self.itemsArray.length >= self.options.maxTags){
+        $(".remind_color").show().html("關鍵字搜尋上限為五組喔！");
         return;
+      }
 
       // Ignore falsey values, except false
       if (item !== false && !item)
