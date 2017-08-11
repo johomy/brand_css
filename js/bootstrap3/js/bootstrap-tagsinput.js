@@ -63,7 +63,7 @@
       var self = this;
 
       if (self.options.maxTags && self.itemsArray.length >= self.options.maxTags){
-        $(".remind_color").show().html("關鍵字搜尋上限為五組喔！");
+        $(".remind_color").html("關鍵字搜尋上限為"+self.options.maxTags+"組喔！"); //20170811增加超過maxTags就提示
         return;
       }
 
