@@ -376,7 +376,7 @@ input, select, textarea, button {outline:none;}
 /*目前持有紅利設定*/
 .dividend_wrap{	position: absolute; top: 0px; left: 12px; }
 .dividend{
-	width: 55px;
+	width: 70px; /*20170901原width:55px;*/
 	position: absolute;
 	top: 0px;
 	left: 25px;

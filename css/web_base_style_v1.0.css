@@ -115,6 +115,7 @@ label {font-size:16px;}
 .f_colorWhit{color: white; font-weight: bold;}
 .remind_color{color: red; font-weight: bold;}
 .f_size16{ font-size: 16px; }
+.f_size20{ font-size: 20px; }
 .line_h20{ line-height: 20px; }
 .line_h30{ line-height: 30px; }
 
@@ -133,7 +134,7 @@ label {font-size:16px;}
 /*目前持有紅利設定*/
 .dividend_wrap span{
 	color: #fff;
-	font-size: 14px;
+	font-size: 18px; /*20170901原font-size:18px;*/
 	font-weight: bold;
 	line-height: 50px;
 }
